@@ -1,10 +1,10 @@
 {
   "name": "formula-eq",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "EQ.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "babel-node test"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/FormulaPages/eq/issues"
   },
-  "homepage": "https://github.com/FormulaPages/eq#readme"
+  "homepage": "https://github.com/FormulaPages/eq#readme",
+  "devDependencies": {
+    "babel": "^5.8.23",
+    "tape": "^4.2.1"
+  }
 }
